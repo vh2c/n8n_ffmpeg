@@ -1,3 +1,4 @@
+AINDA NAO ESTA FUNCIONANDO
 ### Imagem n8n + ffmpeg
 Nesse repositório você encontra uma imagem n8n com instalação do plugin ffmpeg
 para utilização com EasyPanel
