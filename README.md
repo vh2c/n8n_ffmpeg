@@ -3,9 +3,11 @@ Nesse repositório você encontra uma imagem n8n com instalação do plugin ffmp
 para utilização com EasyPanel
 
 ### Instalação
-Após a instalação do modelo n8n diretamente pelo EasyPanel, você deve alterar a fonte para esse repositório (menu lateral FONTE).
-branch: main
-build: /
+Após a instalação do modelo n8n diretamente pelo EasyPanel, você deve alterar a fonte para esse repositório (menu lateral FONTE).<br>
+proprietário: `vh2c`<br>
+repositório: `n8n_ffmpeg`<br>
+branch: `main`<br>
+build: `/`<br>
 
 Depois você deve selecionar na caixa CONSTRUÇAO a opção Dockerfile
 
@@ -16,8 +18,6 @@ Agora execute o workflow.
 
 Se você obtiver a resposta / output : 
 
-```
-Package ffmpeg is installed.
-```
+`Package ffmpeg is installed.`
 
 Pronto ! O ffmpeg já está instalado em seu n8n.
