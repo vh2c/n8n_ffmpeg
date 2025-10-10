@@ -16,6 +16,8 @@ Agora execute o workflow.
 
 Se você obtiver a resposta / output : 
 
+```
 Package ffmpeg is installed.
+```
 
 Pronto ! O ffmpeg já está instalado em seu n8n.
