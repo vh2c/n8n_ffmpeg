@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "command": "PACKAGE_NAME=\"ffmpeg\"\n\nif apk info -vv | grep \"$PACKAGE_NAME\" &> /dev/null; then\n    echo \"Package $PACKAGE_NAME is installed.\"\nelse\n    echo \"Package $PACKAGE_NAME is NOT installed.\"\nfi"
+      },
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        1168,
+        448
+      ],
+      "id": "f48ac1ed-0928-4298-8dc0-2de03db52d36",
+      "name": "Verifica FFMPEG"
+    }
+  ],
+  "connections": {},
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "dad3dc44b50ef2b8bfff31538e80fde5af3dfc47fa688389f627d2ef668c1130"
+  }
+}
