@@ -9,3 +9,13 @@ build: /
 
 Depois você deve selecionar na caixa CONSTRUÇAO a opção Dockerfile
 
+### Verificação da Instalação
+Copie o conteúdo do arquivo teste_instalacao.json.
+Crie um novo workflow no n8n e cole diretamente o conteúdo copiado.
+Agora execute o workflow.
+
+Se você obtiver a resposta / output : 
+
+Package ffmpeg is installed.
+
+Pronto ! O ffmpeg já está instalado em seu n8n.
