@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: n8n-ffmpeg
+    image: n8n
     ports:
       - "5678:5678"
     volumes:
