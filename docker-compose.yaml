@@ -3,8 +3,6 @@ version: '3.8'
 services:
   n8n:
     build:    
-      container_name: n8n-ffmpeg
-      restart: always
       context: .
       dockerfile: Dockerfile
     image: n8n
